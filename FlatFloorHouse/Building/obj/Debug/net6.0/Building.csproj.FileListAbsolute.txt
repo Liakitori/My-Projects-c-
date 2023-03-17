@@ -1,0 +1,12 @@
+C:\MyFolder\C#\FlatFloorHouse\Building\bin\Debug\net6.0\Building.deps.json
+C:\MyFolder\C#\FlatFloorHouse\Building\bin\Debug\net6.0\Building.dll
+C:\MyFolder\C#\FlatFloorHouse\Building\bin\Debug\net6.0\Building.pdb
+C:\MyFolder\C#\FlatFloorHouse\Building\obj\Debug\net6.0\Building.csproj.AssemblyReference.cache
+C:\MyFolder\C#\FlatFloorHouse\Building\obj\Debug\net6.0\Building.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyFolder\C#\FlatFloorHouse\Building\obj\Debug\net6.0\Building.AssemblyInfoInputs.cache
+C:\MyFolder\C#\FlatFloorHouse\Building\obj\Debug\net6.0\Building.AssemblyInfo.cs
+C:\MyFolder\C#\FlatFloorHouse\Building\obj\Debug\net6.0\Building.csproj.CoreCompileInputs.cache
+C:\MyFolder\C#\FlatFloorHouse\Building\obj\Debug\net6.0\Building.dll
+C:\MyFolder\C#\FlatFloorHouse\Building\obj\Debug\net6.0\refint\Building.dll
+C:\MyFolder\C#\FlatFloorHouse\Building\obj\Debug\net6.0\Building.pdb
+C:\MyFolder\C#\FlatFloorHouse\Building\obj\Debug\net6.0\ref\Building.dll

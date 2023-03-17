@@ -1,0 +1,15 @@
+C:\MyFolder\C#\FlatFloorHouse\FlatFloorHouse\bin\Debug\net6.0\FlatFloorHouse.exe
+C:\MyFolder\C#\FlatFloorHouse\FlatFloorHouse\bin\Debug\net6.0\FlatFloorHouse.deps.json
+C:\MyFolder\C#\FlatFloorHouse\FlatFloorHouse\bin\Debug\net6.0\FlatFloorHouse.runtimeconfig.json
+C:\MyFolder\C#\FlatFloorHouse\FlatFloorHouse\bin\Debug\net6.0\FlatFloorHouse.dll
+C:\MyFolder\C#\FlatFloorHouse\FlatFloorHouse\bin\Debug\net6.0\FlatFloorHouse.pdb
+C:\MyFolder\C#\FlatFloorHouse\FlatFloorHouse\obj\Debug\net6.0\FlatFloorHouse.csproj.AssemblyReference.cache
+C:\MyFolder\C#\FlatFloorHouse\FlatFloorHouse\obj\Debug\net6.0\FlatFloorHouse.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyFolder\C#\FlatFloorHouse\FlatFloorHouse\obj\Debug\net6.0\FlatFloorHouse.AssemblyInfoInputs.cache
+C:\MyFolder\C#\FlatFloorHouse\FlatFloorHouse\obj\Debug\net6.0\FlatFloorHouse.AssemblyInfo.cs
+C:\MyFolder\C#\FlatFloorHouse\FlatFloorHouse\obj\Debug\net6.0\FlatFloorHouse.csproj.CoreCompileInputs.cache
+C:\MyFolder\C#\FlatFloorHouse\FlatFloorHouse\obj\Debug\net6.0\FlatFloorHouse.dll
+C:\MyFolder\C#\FlatFloorHouse\FlatFloorHouse\obj\Debug\net6.0\refint\FlatFloorHouse.dll
+C:\MyFolder\C#\FlatFloorHouse\FlatFloorHouse\obj\Debug\net6.0\FlatFloorHouse.pdb
+C:\MyFolder\C#\FlatFloorHouse\FlatFloorHouse\obj\Debug\net6.0\FlatFloorHouse.genruntimeconfig.cache
+C:\MyFolder\C#\FlatFloorHouse\FlatFloorHouse\obj\Debug\net6.0\ref\FlatFloorHouse.dll
