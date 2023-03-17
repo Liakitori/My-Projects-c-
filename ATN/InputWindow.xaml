@@ -1,0 +1,299 @@
+﻿<Window x:Class="ATN.InputWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ATN"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="768" Width="1024">
+    <Window.Background>
+        <ImageBrush ImageSource="/Media/Background.jpg"/>
+    </Window.Background>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="130"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Image HorizontalAlignment="Center" VerticalAlignment="Top"
+               Source="Media/Logo.png"
+               Margin="0,20,0,10"/>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width = "1*"/>
+                <ColumnDefinition Width = "5.3*"/>
+                <ColumnDefinition Width = "1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="1.3*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.ColumnSpan="3" Margin="140,0,140,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.9*"/>
+                    <ColumnDefinition Width="1.2*"/>
+                    <ColumnDefinition Width="0.5*"/>
+                    <ColumnDefinition Width="0.5*"/>
+                    <ColumnDefinition Width="0.5*"/>
+                    <ColumnDefinition Width="0.5*"/>
+                </Grid.ColumnDefinitions>
+                <Image Source="Media\2000.png"
+                       Grid.Row="0" Grid.Column="0"
+                       HorizontalAlignment="Left"/>
+                <Image Source="Media\1000.png"
+                       Grid.Row="1" Grid.Column="0"
+                       HorizontalAlignment="Left"/>
+                <Image Source="Media\500.png"
+                       Grid.Row="2" Grid.Column="0"
+                       HorizontalAlignment="Left"/>
+                <Image Source="Media\100.png"
+                       Grid.Row="3" Grid.Column="0"
+                       HorizontalAlignment="Left"/>
+                <Image Source="Media\50.png"
+                       Grid.Row="4" Grid.Column="0"
+                       HorizontalAlignment="Left"/>
+
+                <TextBlock Name = "TextBlock2000" Grid.Row="0" Grid.Column="1" Margin="10,0,0,0"
+                           Text = "x 0" Foreground="White" FontSize="42" FontWeight="Bold"
+                           VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                <TextBlock Name = "TextBlock1000" Grid.Row="1" Grid.Column="1" Margin="10,0,0,0"
+                           Text = "x 0" Foreground="White" FontSize="42" FontWeight="Bold"
+                           VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                <TextBlock Name = "TextBlock500" Grid.Row="2" Grid.Column="1" Margin="10,0,0,0"
+                           Text = "x 0" Foreground="White" FontSize="42" FontWeight="Bold"
+                           VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                <TextBlock Name = "TextBlock100" Grid.Row="3" Grid.Column="1" Margin="10,0,0,0"
+                           Text = "x 0" Foreground="White" FontSize="42" FontWeight="Bold"
+                           VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                <TextBlock Name = "TextBlock50" Grid.Row="4" Grid.Column="1" Margin="10,0,0,0"
+                           Text = "x 0" Foreground="White" FontSize="42" FontWeight="Bold"
+                           VerticalAlignment="Center" HorizontalAlignment="Left"/>
+
+                <Button BorderThickness="3.5" Grid.Row="0" Grid.Column="2" Margin="5,11,5,11"
+                        Content="-10" Foreground="White" FontSize="25" FontWeight="DemiBold"
+                        BorderBrush="#FF80A1FF" RenderTransformOrigin="1,0" Background="{x:Null}" Click="Button2000min10">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button BorderThickness="3.5" Grid.Row="1" Grid.Column="2" Margin="5,11,5,11"
+                        Content="-10" Foreground="White" FontSize="25" FontWeight="DemiBold"
+                        BorderBrush="#FF80EAFF" RenderTransformOrigin="1,0" Background="{x:Null}" Click="Button1000min10">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button BorderThickness="3.5" Grid.Row="2" Grid.Column="2" Margin="5,11,5,11"
+                        Content="-10" Foreground="White" FontSize="25" FontWeight="DemiBold"
+                        BorderBrush="#FFFA7D83" RenderTransformOrigin="1,0" Background="{x:Null}" Click="Button500min10">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button BorderThickness="3.5" Grid.Row="3" Grid.Column="2" Margin="5,11,5,11"
+                        Content="-10" Foreground="White" FontSize="25" FontWeight="DemiBold"
+                        BorderBrush="#FFFAD97D" RenderTransformOrigin="1,0" Background="{x:Null}" Click="Button100min10">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button BorderThickness="3.5" Grid.Row="4" Grid.Column="2" Margin="5,11,5,11"
+                        Content="-10" Foreground="White" FontSize="25" FontWeight="DemiBold"
+                        BorderBrush="#FF6DDACF" RenderTransformOrigin="1,0" Background="{x:Null}" Click="Button50min10">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+
+                <Button BorderThickness="3.5" Grid.Row="0" Grid.Column="3" Margin="5,11,5,11"
+                        Content="-1" Foreground="White" FontSize="25" FontWeight="DemiBold"
+                        BorderBrush="#FF80A1FF" RenderTransformOrigin="1,0" Background="{x:Null}" Click="Button2000min1">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button BorderThickness="3.5" Grid.Row="1" Grid.Column="3" Margin="5,11,5,11"
+                        Content="-1" Foreground="White" FontSize="25" FontWeight="DemiBold"
+                        BorderBrush="#FF80EAFF" RenderTransformOrigin="1,0" Background="{x:Null}" Click="Button1000min1">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button BorderThickness="3.5" Grid.Row="2" Grid.Column="3" Margin="5,11,5,11"
+                        Content="-1" Foreground="White" FontSize="25" FontWeight="DemiBold"
+                        BorderBrush="#FFFA7D83" RenderTransformOrigin="1,0" Background="{x:Null}" Click="Button500min1">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button BorderThickness="3.5" Grid.Row="3" Grid.Column="3" Margin="5,11,5,11"
+                        Content="-1" Foreground="White" FontSize="25" FontWeight="DemiBold"
+                        BorderBrush="#FFFAD97D" RenderTransformOrigin="1,0" Background="{x:Null}" Click="Button100min1">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button BorderThickness="3.5" Grid.Row="4" Grid.Column="3" Margin="5,11,5,11"
+                        Content="-1" Foreground="White" FontSize="25" FontWeight="DemiBold"
+                        BorderBrush="#FF6DDACF" RenderTransformOrigin="1,0" Background="{x:Null}" Click="Button50min1">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+
+                <Button BorderThickness="3.5" Grid.Row="0" Grid.Column="4" Margin="5,11,5,11"
+                        Content="+1" Foreground="Black" FontSize="25" FontWeight="DemiBold"
+                        BorderBrush="#FF80A1FF" RenderTransformOrigin="1,0" Background="White" Click="Button2000plus1">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button BorderThickness="3.5" Grid.Row="1" Grid.Column="4" Margin="5,11,5,11"
+                        Content="+1" Foreground="Black" FontSize="25" FontWeight="DemiBold"
+                        BorderBrush="#FF80EAFF" RenderTransformOrigin="1,0" Background="White" Click="Button1000plus1">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button BorderThickness="3.5" Grid.Row="2" Grid.Column="4" Margin="5,11,5,11"
+                        Content="+1" Foreground="Black" FontSize="25" FontWeight="DemiBold"
+                        BorderBrush="#FFFA7D83" RenderTransformOrigin="1,0" Background="White" Click="Button500plus1">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button BorderThickness="3.5" Grid.Row="3" Grid.Column="4" Margin="5,11,5,11"
+                        Content="+1" Foreground="Black" FontSize="25" FontWeight="DemiBold"
+                        BorderBrush="#FFFAD97D" RenderTransformOrigin="1,0" Background="White" Click="Button100plus1">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button BorderThickness="3.5" Grid.Row="4" Grid.Column="4" Margin="5,11,5,11"
+                        Content="+1" Foreground="Black" FontSize="25" FontWeight="DemiBold"
+                        BorderBrush="#FF6DDACF" RenderTransformOrigin="1,0" Background="White" Click="Button50plus1">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+
+                <Button BorderThickness="3.5" Grid.Row="0" Grid.Column="5" Margin="5,11,5,11"
+                        Content="+10" Foreground="Black" FontSize="25" FontWeight="DemiBold"
+                        BorderBrush="#FF80A1FF" RenderTransformOrigin="1,0" Background="White" Click="Button2000plus10">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button BorderThickness="3.5" Grid.Row="1" Grid.Column="5" Margin="5,11,5,11"
+                        Content="+10" Foreground="Black" FontSize="25" FontWeight="DemiBold"
+                        BorderBrush="#FF80EAFF" RenderTransformOrigin="1,0" Background="White" Click="Button1000plus10">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button BorderThickness="3.5" Grid.Row="2" Grid.Column="5" Margin="5,11,5,11"
+                        Content="+10" Foreground="Black" FontSize="25" FontWeight="DemiBold"
+                        BorderBrush="#FFFA7D83" RenderTransformOrigin="1,0" Background="White" Click="Button500plus10">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button BorderThickness="3.5" Grid.Row="3" Grid.Column="5" Margin="5,11,5,11"
+                        Content="+10" Foreground="Black" FontSize="25" FontWeight="DemiBold"
+                        BorderBrush="#FFFAD97D" RenderTransformOrigin="1,0" Background="White" Click="Button100plus10">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button BorderThickness="3.5" Grid.Row="4" Grid.Column="5" Margin="5,11,5,11"
+                        Content="+10" Foreground="Black" FontSize="25" FontWeight="DemiBold"
+                        BorderBrush="#FF6DDACF" RenderTransformOrigin="1,0" Background="White" Click="Button50plus10">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition Height="1.5*"/>
+                </Grid.RowDefinitions>
+                <Border Margin="0,5,0,0" Grid.Row="0" Background="White" VerticalAlignment="Top" Height="2" CornerRadius="1"/>
+                <TextBlock Text="Вы вносите:" Foreground="White" FontSize="25" FontWeight="Bold" Margin="0,10,0,0"
+                       VerticalAlignment="Top" HorizontalAlignment="Left" Grid.Row="0" Height="33" Width="148"/>
+                <TextBlock Name = "TextBlockSum" Text="0р" Foreground="White" FontSize="25" FontWeight="Bold" Margin="0,10,0,0"
+                       VerticalAlignment="Top" HorizontalAlignment="Right" Grid.Row="0" Grid.ColumnSpan="2"/>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="3*"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Button Click="Button_Back_Click" Content="Назад" Foreground="White" FontSize="25" FontWeight="DemiBold" Grid.Column="0" Margin="0,0,0,20" Background="#FFFA6067" BorderBrush="{x:Null}">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="20"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                    <Button Click="Button_Continue_Click" Content="Внести" Foreground="White" FontSize="25" FontWeight="DemiBold" Grid.Column="2" Margin="0,0,0,20" Background="#FF02DAC5" BorderBrush="{x:Null}">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="20"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                </Grid>
+                
+            </Grid>
+            
+            
+        </Grid>
+    </Grid>
+</Window>
